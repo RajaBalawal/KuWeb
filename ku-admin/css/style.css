@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900');
+
+body,html {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    height: 100%;
+}
+
+header .logo{
+    font-weight: 700;
+    font-family: "Raleway ExtraBold";
+}
+header .logo h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar{
+    margin-bottom: 0;
+}
+
+.section-title{
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    background-color: #414141;
+    padding: 20px 0;
+    margin: 20px 0 ;
+}
+footer{
+    text-align: center;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+.form-signin .checkbox {
+    font-weight: normal;
+}
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 9px;
+    margin-top: 30px;
+}
+.sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee;
+}
+.sidebar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidebar .nav {
+    margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+    width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+    margin-left: 0;
+}
+
+.sidebar .nav-link {
+    border-radius: 0;
+}
+.placeholders {
+    padding-bottom: 3rem;
+}
+
+.placeholder img {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* ********************* MESSAGES *********************** */
+#message {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background-color: rgba(255,255,255,1);
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    padding: 10px 30px;
+    display: block;
+    cursor: default;
+}
+#message .error{
+    color: red;
+}
+#message .success{
+    color: darkgreen;
+}
+#message .info{
+    color: royalblue;
+}
+#message .warning{
+    color: orange;
+}
+.nav-menu{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.nav-menu li a{
+    color: #000;
+}
+.nav-menu li a:hover{
+    color: #556D9D;
+}
